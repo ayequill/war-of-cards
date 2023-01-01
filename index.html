@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>War</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/dist/css/main.min.css">
-</head>
-<body>
-    <div id="cards">
-
+    <link rel="stylesheet" href="/dist/css/main.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="cards">
+        <!-- TODO Render each image in its own div -->
+        <div></div>
+        <div></div>
+        <p>Computer:</p>
+        <p>Me:</p>
+      </div>
+      <div class="buttons">
+      <button id="drawBtn">draw</button>
+      <button id="btn">NEW GAME</button>
     </div>
-    <button id="drawBtn">draw</button>
-    <button id="btn">Play</button>
-    <script src="/js/script.js"></script>
-</body>
+      <script src="/js/script.js"></script>
+    </div>
+  </body>
 </html>

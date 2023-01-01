@@ -13,8 +13,13 @@ function drawCard() {
 .then(res => res.json())
 .then(deck => {
     console.log(deck.cards);
+    /* TODO Render each image in its own div */
+
     document.getElementById('cards').innerHTML =`<img src='${deck.cards[0].image}'>
-                                                 <img src='${deck.cards[1].image}'>`
+                                                 <img src='${deck.cards[1].image}
+                                                 '>
+                                                 <p>Computer:</p>
+                                                 <p>Me:</p>`
     })
 }
 
