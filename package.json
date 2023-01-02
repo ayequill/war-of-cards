@@ -30,5 +30,8 @@
     "gulp-terser": "^2.1.0",
     "gulp-uncss": "^1.0.6",
     "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
   }
 }
