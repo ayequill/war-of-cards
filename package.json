@@ -1,0 +1,33 @@
+{
+  "name": "siaw-war-of-cards",
+  "version": "1.0.0",
+  "description": "A card game built with HTML, SASS and JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayequill/war-of-cards.git"
+  },
+  "keywords": [
+    "card",
+    "game",
+    "card",
+    "deck"
+  ],
+  "author": "Siaw A. Nicholas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayequill/war-of-cards/issues"
+  },
+  "homepage": "https://github.com/ayequill/war-of-cards#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.57.1"
+  }
+}
