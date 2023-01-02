@@ -21,14 +21,12 @@ body{
     'c'
     'btn';
     gap: 1em 0;
-    overflow: hidden;
     margin: 0 auto;
 }
 #drawBtn,#btn{
     all: unset;
     padding: 1.5em;
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 2px;
 }
 #drawBtn{
@@ -46,8 +44,6 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
-    justify-items: center;
-
 }
 img{
     width: 70%;
@@ -85,11 +81,9 @@ img{
         grid-template-columns: repeat(2,1fr);
         align-self: start;
     }
-
     #cards{
         grid-area: c;
         justify-self: center;
-        grid-column: span 2;
         gap: 0 2em;
     }
     img{
@@ -97,11 +91,8 @@ img{
     }
     #drawBtn{
         border-radius: 0;
-        
-
     }
     #btn{
         margin-bottom: 0;
     }
-  
 }

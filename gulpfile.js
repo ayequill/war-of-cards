@@ -6,6 +6,7 @@ const {src, dest, series, watch } = require('gulp')
 const scss = require('gulp-sass')(require('sass'))
 const autoprefixer = require('gulp-autoprefixer')
 const cssMin = require('gulp-clean-css')
+const unCss = require('gulp-uncss')
 
 function styles(){
     // first return my source loc and chain it with the gulp plugins 
@@ -13,6 +14,9 @@ function styles(){
         .pipe ( scss() )
         .pipe(autoprefixer('last 2 versions'))
         .pipe( cssMin() )
+        // .pipe(unCss({
+        //     html:'index.html'
+        // }))
         // declare save loc for my processed files
         .pipe( dest('./dist/styles/') )
 }

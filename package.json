@@ -28,6 +28,7 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^5.1.0",
     "gulp-terser": "^2.1.0",
+    "gulp-uncss": "^1.0.6",
     "sass": "^1.57.1"
   }
 }
